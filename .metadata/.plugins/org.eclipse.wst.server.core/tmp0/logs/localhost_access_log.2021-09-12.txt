@@ -1,0 +1,6 @@
+127.0.0.1 - - [12/Sep/2021:23:44:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Sep/2021:23:44:47 +0530] "GET /AdvanceJavaClassOne/newRegistration.html HTTP/1.1" 200 615
+0:0:0:0:0:0:0:1 - - [12/Sep/2021:23:44:59 +0530] "POST /AdvanceJavaClassOne/newRegs HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2021:23:46:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Sep/2021:23:46:37 +0530] "GET /AdvanceJavaClassTwo/newregistration.html HTTP/1.1" 200 614
+0:0:0:0:0:0:0:1 - - [12/Sep/2021:23:47:13 +0530] "POST /AdvanceJavaClassTwo/newRegs HTTP/1.1" 200 -
