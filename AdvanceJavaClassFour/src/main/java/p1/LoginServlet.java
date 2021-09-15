@@ -32,8 +32,9 @@ public class LoginServlet extends HttpServlet {
 			Statement stmt = con.createStatement();
 			ResultSet result = stmt.executeQuery("select * from login where email='"+email+"' and password='"+password+"' ");
 			if(result.next()) {
-				RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/welcome.html");
+				RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/views/welcome.html");
 				rd.forward(request, response);
+			
 			}else {
 				RequestDispatcher rd = request.getRequestDispatcher("index.html");
 				rd.include(request, response);
